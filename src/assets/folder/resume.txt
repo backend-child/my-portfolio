@@ -1,0 +1,92 @@
+  
+  WHAT IS HTTP >>
+ IT MEANS hyper text transfer protocol >>
+it allows communication between server and clients >> 
+
+  USING NODE.JS MODULES TO CREATE A COMMON SERVER >>
+
+ const http = require('http');
+ const port = 5000;
+
+ const server = http.createServer((req, res)=> {
+ 
+ res.end()
+ })
+
+server.listen(port, ()=> {
+
+ console.log(`server is listening to request on port ${port}`)
+})
+
+
+
+   RESPONDING WITH DATA >> RETURNING DATA FROM THE SERVER TO THE CLIENTS
+
+ const http = require('http');
+ const port = 5000;
+
+ const server = http.createServer((req, res)=> {
+ 
+ res.write()
+ res.end()
+ })
+
+server.listen(port, ()=> {
+
+ console.log(`server is listening to request on port ${port}`)
+})
+
+
+NOTE: WHAT WE usually want to do is to retun a header type / content type
+detailing what kind of respond type document are we sending back to the client
+mostly to our browser cause most at times it would be confused on what to render
+for people that will make use of it..
+
+ Example of how we do that is simple: 
+
+
+ res.setHeader('Content-Type', "text/plain")
+ res.end();
+
+
+ EXAMPLE:  SENDING DATA TO OUR SERVER >> HOW WE CAN SEND DATA TO OUR REMOTE SERVER
+
+>>
+
+   NOTE HOW OUR BOOTCAMP ROUTES IS GOING TO LOOK LIKE
+
+>>
+ 
+  /api/v1/bootcamps
+  /api/v1/courses
+  /api/v1/reviews
+  /api/v1/auth
+  /api/v1/users
+
+  app.get('/api/v1/bootcamps', (req, res)=> {
+
+    res.status(200).json({success: true, name: "the backend"})
+ })
+
+NOTE>> WRITING ALL THIS CAN BE PRETTY STRESSFULL ,SO MOST TIMES
+EXpress helps us by providing basics routes in which we can use..
+it comes inbuit ...inside express package..
+  
+
+ UNDERSTANDING MIDDLEWARE >>
+THEY are functions that works under the hoood ..when a client is making a 
+request to a resource stored on the server ...
+
+ they are code>> more like functions that tackles incomming request object and
+gives out a respond
+
+  
+
+
+
+
+
+
+
+
+
