@@ -101,7 +101,7 @@ const Project = () => {
                   <Nav.Link eventKey="second">Click Here To Go Live!</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">About Me</Nav.Link>
+                  <Nav.Link eventKey="third">Technologies </Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
@@ -156,7 +156,31 @@ const Project = () => {
                     Acme Tailwind Website
                   </a>
                 </Tab.Pane>
-                <Tab.Pane eventKey="third">LoremThird</Tab.Pane>
+                <Tab.Pane eventKey="third">
+                  Html/C.s.s
+                  <br />
+                  S.a.s.s
+                  <br />
+                  Bootstarp/j-query
+                  <br />
+                  Tailwind
+                  <br />
+                  Materiarialized css
+                  <br />
+                  java-script
+                  <br />
+                  express js / node Js
+                  <br />
+                  Mongo DB
+                  <br />
+                  React / React-redux / context api / Reducers
+                  <br />
+                  React native
+                  <br />
+                  P.H.P / Oop / Mvc / Laravel
+                  <br />
+                  WordPress
+                </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>

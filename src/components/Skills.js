@@ -35,9 +35,15 @@ const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                I'm a M.E.R.N Stack Developer, React-Native/Mobile App
-                Developer,.. Project Management certified , Am Currently
-                learning how to write more of Web3 Block-chain codes..
+                "I am a versatile developer skilled in the M.E.R.N Stack and
+                adept at creating mobile applications using React-Native. My
+                proficiency extends to PHP and Laravel, as well as WordPress
+                development, where I have a proven track record of delivering
+                exceptional websites. I hold a Project Management certification
+                that adds a structured approach to my development prowess.
+                Currently, I am exploring the fascinating world of Web3
+                blockchain development, harnessing cutting-edge technology to
+                revolutionize the digital landscape."
                 <br></br>
               </p>
               <Carousel

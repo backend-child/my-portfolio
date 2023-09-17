@@ -62,8 +62,15 @@ const Banner = () => {
               <span className="wrap">{text}</span>
             </h1>
             <p>
-              I love to write simple programming codes, when am not writing
-              codes ,i enjoy playing basket balls, call-of-duty..
+              "I thrive on crafting elegant and efficient web solutions through
+              the art of code. With a keen eye for detail, I specialize in
+              creating seamless, user-centric experiences that bridge form and
+              function. My passion for technology is matched by my dedication to
+              solving complex problems, and I take pride in turning ideas into
+              interactive, user-friendly websites and applications. I'm not just
+              a web developer; I'm a digital architect, constantly exploring
+              innovative ways to blend creativity and technology to bring
+              visions to life."
             </p>
             <button onClick={() => console.log}>
               Lets connect

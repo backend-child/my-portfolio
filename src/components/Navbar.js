@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
@@ -83,14 +83,20 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.instagram.com/invites/contact/?i=ytoaozaof0pn&utm_content=nfmbepd">
+              <a
+                href="https://www.instagram.com/invites/contact/?i=ytoaozaof0pn&utm_content=nfmbepd"
+                target="_blank"
+              >
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="https://www.facebook.com/ejike.anazor.7">
+              <a href="https://www.facebook.com/ejike.anazor.7" target="_blank">
                 <img src={navIcon2} alt="" />
               </a>
-              <a href="https://wa.me/message/N6XOFGN4KD3AF1">
+              <a href="https://wa.me/message/N6XOFGN4KD3AF1" target="_blank">
                 <img src={navIcon4} alt="" />
+              </a>
+              <a href="https://github.com/backend-child" target="_blank">
+                <button>Git-Hub page</button>
               </a>
             </div>
 
