@@ -9,6 +9,8 @@ import imageFour from "../assets/img/native1.jpg";
 import imageFive from "../assets/img/template.jpg";
 import imageSix from "../assets/img/marybella.jpg";
 import imageSeven from "../assets/img/acme.jpg";
+import imageEight from "../assets/img/phppics.jpg";
+import imageNine from "../assets/img/wordpress.jpg";
 import Project1 from "./Project1";
 
 const Project = () => {
@@ -19,6 +21,21 @@ const Project = () => {
       imgUrl: imageOne,
       tech: "express.js, mongo db, post-man, cors, jwt_Auth Tokens, cookie-Parser, mongo-sanitize, hpp, helmet, rate-limit, file-upload, Morgan",
     },
+
+    {
+      title: "Panda Pizza 'PHP' BLOG Project",
+      description: "A simple Blog PHP Project Using",
+      imgUrl: imageEight,
+      tech: "PHP, MYSQL, APACHE, MARIA-DB",
+    },
+
+    {
+      title: "Panda Pizza and Burgers WORDPRESS project",
+      description: "A simple Blog PHP Project Using",
+      imgUrl: imageNine,
+      tech: "Wordpress, Elementor-pageBuilder, kandence-theme-plugin",
+    },
+
     {
       title: "Sell Your Home 'React Js/MERN E-commerce Website' ",
       description: "De",
@@ -99,6 +116,17 @@ const Project = () => {
                   <a href=" https://bootcamp-wg0r.onrender.com" target="_blank">
                     Easy_School Backend Api Route & Resources Express_js
                     Mongo_db
+                  </a>
+                  <br />
+                  <a
+                    href="https://inheriting-clerk.000webhostapp.com/"
+                    target="_blank"
+                  >
+                    Panda Pizza simple PHP blog project
+                  </a>
+                  <br />
+                  <a href="http://panda-style.unaux.com/" target="_blank">
+                    Panda Pizzas and Burgers WORDPRESS Website
                   </a>
                   <br />
                   <a href="https://panda-luxuryhouse.surge.sh" target="_blank">
